@@ -28,9 +28,8 @@ echo "Creation of directorys"
 echo "Moving config files"
 # sudo cp Alpha-Omega-Conf/config-files/.gitconfig ~/.gitconfig
 # sudo cp Alpha-Omega-Conf/config-files/.bashrc ~/.bashrc
-# # Powerline Config 
 # sudo cp Alpha-Omega-Conf/config-files/powerline.json ~/.config/powerline-shell/config.json
-
+sudo cp Alpha-Omega-Conf/config-files/xorg.conf /etc/X11/xorg.conf
 
 #change of terminal
 zsh /usr/share/zsh/functions/Newuser/zsh-newuser-install -f
